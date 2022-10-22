@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Odibee+Sans&family=Open+Sans:wght@400;500;700;800&family=Oswald:wght@400;700&family=Poppins:wght@200;400;500;700;900&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Odibee+Sans&family=Open+Sans:wght@400;500;700;800&family=Oswald:wght@400;700&family=Poppins:wght@200;400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@ form {
 }
 #title {
   text-align: center;
-  /* padding: 2rem; */
+   padding: 2rem; 
 }
 #description {
   text-align: center;
@@ -94,4 +94,32 @@ input[type="tel"] {
     width: 90%;
     font-size: 0.7rem;
   }
+} */
+
+/*TWEET BUTTON*/
+
+.tweet-button {
+background-color: rgb(2, 158, 255);
+color: white;
+border: none;
+height: 36px;
+width: 70px;
+border-radius: 18px;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+margin-left: 8px;
+transition: box-shadow 0.15s;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); /* a value means the opacity of the color.Takes 4 values - horizontal,vertical,blur and the color*/
+
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); /* a value means the opacity of the color.Takes 4 values - horizontal,vertical,blur and the color*/
+
+  opacity: 0.8; /*Tells us how a see through html element is and is between 0 and 1.1 means its normal and below 1 is used to fed out the element*/
+}
+
+.tweet-button:active {
+   opacity: 0.5;
 }
